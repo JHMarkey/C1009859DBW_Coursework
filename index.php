@@ -3,7 +3,7 @@
 <section id="pricing" class="pricing-content section-padding">
 	<div class="container">					
 		<div class="section-title text-center">
-			<h1 style="padding-left: 300px; padding-bottom: 25px">Pricing Plan</h1>			
+			<h1 style="padding-bottom: 25px">Pricing Plan</h1>			
 		</div>					
 		<div class="row text-center">									
 			<div class="col-lg-4 col-sm-4 col-xs-12">

@@ -39,7 +39,7 @@ function createUser($ProductID){
     $stmt->bindParam(':pwd', $_POST['pwd'], SQLITE3_TEXT);
     $stmt->bindParam(':postcode', $_POST['postcode'], SQLITE3_TEXT);     
     $stmt->bindParam(':DOB', $_POST['DOB'], SQLITE3_TEXT);
-    $stmt->bindParam(':tele', $_POST['tele'], SQLITE3_TEXT);
+    $stmt->bindParam(':tele', $_POST['tele'], SQLITE3_INTEGER);
     $stmt->bindParam(':uStatus', $defaultStatus, SQLITE3_TEXT);
     $stmt->bindParam(':appDate', $date, SQLITE3_TEXT);
 
